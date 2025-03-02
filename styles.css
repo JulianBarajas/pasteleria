@@ -30,7 +30,7 @@ body {
 
 /* Hero Section */
 header#inicio {
-  background-image: url("https://images.unsplash.com/photo-1559620192-032c4bc4674e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background-image: url(img/FondoBanner.avif);
   background-size: cover;
   background-position: center;
   color: black;
