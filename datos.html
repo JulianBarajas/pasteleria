@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirmar Pedido</title>
+    <link rel="stylesheet" href="styles_datos.css" />
+  </head>
+  <body>
+    <div class="detalle-producto">
+      <img id="productImage" src="" alt="Imagen del pastel" />
+      <h3 id="productName"></h3>
+      <p id="productDescription"></p>
+
+      <div class="info-section">
+        <h2>Datos de contacto</h2>
+        <label for="nombre">Tu nombre:</label>
+        <input type="text" id="nombre" placeholder="Ej: Juan Pérez" />
+
+        <label for="celular">Número de celular:</label>
+        <input type="tel" id="celular" placeholder="Ej: 3001234567" />
+      </div>
+
+      <div class="info-section">
+        <h2>Horarios de Atención</h2>
+        <p>Lunes a Sábados: 9:00 AM - 7:00 PM</p>
+        <p>Domingo y Festivos: 9:00 AM - 3:00 PM</p>
+      </div>
+
+      <div class="info-section">
+        <h2>Ubicación de núestra pastelería</h2>
+        <p>Carrera 100 # 22i-70, Bogotá, Colombia</p>
+      </div>
+
+      <div class="info-section">
+        <h3>Método de Pago</h3>
+        <div class="checkbox-group">
+          <label>
+            <input type="checkbox" id="contraEntrega" value="Contra entrega" />
+            Contra entrega
+          </label>
+        </div>
+      </div>
+
+      <button
+        class="btn-confirmar"
+        id="btnConfirmar"
+        onclick="confirmarPedido()"
+      >
+        Confirmar pedido
+      </button>
+      <a class="btn-volver" href="index.html">Volver</a>
+    </div>
+    <script src="script_datos.js"></script>
+  </body>
+</html>

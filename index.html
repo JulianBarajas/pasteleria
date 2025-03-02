@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pastelería Bachué</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Pastelería Bachué</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#clasicos">Clásicos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#personalizadas">Personalizadas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nosotros">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="inicio" class="text-center p-5 bg-light">
+      <h1>Bienvenido a Pastelería Bachué</h1>
+      <p>¡Los mejores pasteles para cada ocasión!</p>
+      <a href="#clasicos" class="btn-prducts">Ver Productos</a>
+    </header>
+
+    <section class="section" id="clasicos">
+      <h2>Clásicos Bachué</h2>
+      <div class="productos-container">
+        <div class="producto">
+          <img src="img/Brazodereina.jpg" alt="Brazo de Reina" />
+          <h3>Brazo de Reina</h3>
+          <p>Delicioso Brazo de Reina.</p>
+          <button class="btn-ordenar" onclick="ordenarAhora(this)">
+            Pedir ahora
+          </button>
+        </div>
+        <div class="producto">
+          <img src="img/Milhoja.jpg" alt="Brazo de Reina" />
+          <h3>Milhoja</h3>
+          <p>
+            Un encanto de tres capas de hojaldre, Crema de leche, Chantilly y
+            cobertura de Arequipe.
+          </p>
+          <button class="btn-ordenar" onclick="ordenarAhora(this)">
+            Pedir ahora
+          </button>
+        </div>
+        <div class="producto">
+          <img src="img/Tiramisú.jpg" alt="Brazo de Reina" />
+          <h3>Tiramisú</h3>
+          <p>Este delicioso postre de bizcochuelo húmedo de cafe.</p>
+          <button class="btn-ordenar" onclick="ordenarAhora(this)">
+            Pedir ahora
+          </button>
+        </div>
+        <div class="producto">
+          <img src="img/postredemaracuya.jpg" alt="Brazo de Reina" />
+          <h3>Postre de Maracuyá</h3>
+          <p>El delicioso postre de Maracuya, con 100% pulpa natural.</p>
+          <button class="btn-ordenar" onclick="ordenarAhora(this)">
+            Pedir ahora
+          </button>
+        </div>
+        <div class="producto">
+          <img src="img/flandecaramelo.jpg" alt="Brazo de Reina" />
+          <h3>Flan de caramelo</h3>
+          <p>Delicioso flan de caramelo.</p>
+          <button class="btn-ordenar" onclick="ordenarAhora(this)">
+            Pedir ahora
+          </button>
+        </div>
+        <div class="producto">
+          <img src="img/nutella.jpg" alt="Brazo de Reina" />
+          <h3>Torta de Chocolate</h3>
+          <p>
+            La tan popular, torta de brownie, dos capas de nutella con torta de
+            chocolate.
+          </p>
+          <button class="btn-ordenar" onclick="ordenarAhora(this)">
+            Pedir ahora
+          </button>
+        </div>
+        <div class="producto">
+          <img src="img/milkyway.jpg" alt="Brazo de Reina" />
+          <h3>Torta de Milkyway</h3>
+          <p>...</p>
+          <button class="btn-ordenar" onclick="ordenarAhora(this)">
+            Pedir ahora
+          </button>
+        </div>
+        <div class="producto">
+          <img src="img/tresleches.jpg" alt="Brazo de Reina" />
+          <h3>Tres leches</h3>
+          <p>
+            Torta tradicional, popular y mojadita la favorita de todos "TORTA
+            TRES LECHES".
+          </p>
+          <button class="btn-ordenar" onclick="ordenarAhora(this)">
+            Pedir ahora
+          </button>
+        </div>
+        <div class="producto">
+          <img src="img/vainillamaracuyá.jpg" alt="Brazo de Reina" />
+          <h3>Vainilla Maracuyá</h3>
+          <p>
+            Deliciosa combinación de Nutella, arequipe + Maracuya y vainilla.
+          </p>
+          <button class="btn-ordenar" onclick="ordenarAhora(this)">
+            Pedir ahora
+          </button>
+        </div>
+        <div class="producto">
+          <img src="img/frutosamarillos.jpg" alt="Brazo de Reina" />
+          <h3>Frutos Amarillos</h3>
+          <p>
+            Contiene Lulo + durazno , torta de vainilla , el delicioso frutos
+            amarillos
+          </p>
+          <button class="btn-ordenar" onclick="ordenarAhora(this)">
+            Pedir ahora
+          </button>
+        </div>
+        <div class="producto">
+          <img src="img/frutosrojos.jpg" alt="Brazo de Reina" />
+          <h3>Frutos rojos</h3>
+          <p>Contiene: Mora, fresa y agras con torta de vainilla.</p>
+          <button class="btn-ordenar" onclick="ordenarAhora(this)">
+            Pedir ahora
+          </button>
+        </div>
+        <div class="producto">
+          <img src="img/arlequín.jpg" alt="Brazo de Reina" />
+          <h3>Arlequín</h3>
+          <p>
+            Combinación perfecta entre milo ron y amaretto con torta de
+            chocolate.
+          </p>
+          <button class="btn-ordenar" onclick="ordenarAhora(this)">
+            Pedir ahora
+          </button>
+        </div>
+        <div class="producto">
+          <img src="img/mussmaracuyá.jpg" alt="Brazo de Reina" />
+          <h3>Muss Maracuyá</h3>
+          <p>Nuestro "BEST SELLER", muss de maracuya con torta de chocolate.</p>
+          <button class="btn-ordenar" onclick="ordenarAhora(this)">
+            Pedir ahora
+          </button>
+        </div>
+        <div class="producto">
+          <img src="img/cheesecakefrutosrojos.jpg" alt="Brazo de Reina" />
+          <h3>Cheescake frutos rojos</h3>
+          <p>A base de queso crema y con cobertura de frutos rojos.</p>
+          <button class="btn-ordenar" onclick="ordenarAhora(this)">
+            Pedir ahora
+          </button>
+        </div>
+        <div class="producto">
+          <img src="img/combinado.jpg" alt="Brazo de Reina" />
+          <h3>Combinado</h3>
+          <p>Postre Combinado.</p>
+          <button class="btn-ordenar" onclick="ordenarAhora(this)">
+            Pedir ahora
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="personalizadas">
+      <h2>Tortas Personalizadas</h2>
+      <div class="gallery">
+        <img src="img/supermario.jpg" alt="Mario Bross" />
+        <img src="img/DeliciasFresa.jpg" alt="Torta de fresas" />
+        <img src="img/Stitch.jpg" alt="Stitch" />
+        <img src="img/hellokitty.jpg" alt="Hello Kitty" />
+        <img src="img/pawpatrol.jpg" alt="Paw Patrol" />
+        <img src="img/jorgecurioso.jpg" alt="Jorge Curioso" />
+      </div>
+      <button class="btn-personalizar-torta" onclick="abrirModalTorta()">
+        ¡PERSONALIZA LA TUYA!
+      </button>
+    </section>
+
+    <div class="modal" id="modalTorta">
+      <div class="modal-content">
+        <span class="close" id="closeModalTorta">&times;</span>
+        <h2>TORTA PERSONALIZADA</h2>
+        <div>
+          <label for="tortaSize">Tamaño (porciones):</label>
+          <select id="tortaSize">
+            <option value="10-15">10 - 15 porciones</option>
+            <option value="20-25">20 - 25 porciones</option>
+            <option value="30+">30 o más</option>
+          </select>
+        </div>
+        <div>
+          <label for="tortaSabor">Sabor:</label>
+          <select id="tortaSabor">
+            <option value="Chocolate">Chocolate</option>
+            <option value="Tres leches">Tres leches</option>
+            <option value="Combinada">Combinada</option>
+          </select>
+        </div>
+        <div>
+          <label for="tortaTematica">Temática:</label>
+          <input
+            type="text"
+            id="tortaTematica"
+            placeholder="Ej: Sonic, Toy Story..."
+          />
+        </div>
+        <div>
+          <label for="tortaFrase">Frase:</label>
+          <input
+            type="text"
+            id="tortaFrase"
+            placeholder='Ej: "Feliz cumpleaños Sebas"'
+          />
+        </div>
+        <p style="font-size: 14px">*El precio es según complejidad</p>
+        <button class="btn-finalizar" onclick="finalizarTorta()">
+          Finalizar compra
+        </button>
+      </div>
+    </div>
+
+    <section id="nosotros" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Sobre Nosotros</h2>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p>
+              Bienvenidos a nuestra pastelería, un rincón mágico donde la
+              tradición se fusiona con la creatividad. Fundada en un pequeño
+              pueblo encantado, nuestra historia se teje entre recetas secretas
+              y momentos inolvidables. Cada pastel es elaborado con ingredientes
+              cuidadosamente seleccionados y el toque único de la pasión que nos
+              caracteriza.
+            </p>
+          </div>
+          <div class="col-md-6 text-center">
+            <img
+              src="img/Sobrenostros.jpg"
+              alt="Imagen de la pastelería"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4147.393267621873!2d-74.1417554892954!3d4.678081241833295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c8e28f0f5e9%3A0xb28b40ac801d770!2zUGFzdGVsZXLDrWEgQmFjaHXDqQ!5e1!3m2!1ses!2sco!4v1740865777110!5m2!1ses!2sco"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h2 class="text-center">Contacto</h2>
+          <div class="contact-details">
+            <p><strong>Teléfono:</strong> 601 - 4185223</p>
+            <p><strong>Email:</strong> contacto@tusitio.com</p>
+            <p>
+              <strong>Dirección:</strong> Carrera 100 # 22i-70, Bogotá, Colombia
+            </p>
+            <p><strong>Horario:</strong></p>
+            <p>Lunes a Sábados: 9:00 AM - 7:00 PM</p>
+            <p>Domingo y Festivos: 9:00 AM - 3:00 PM</p>
+          </div>
+          <div class="text-center mt-4">
+            <a href="https://wa.me/123456789" class="btn btn-success"
+              >WhatsApp</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Botón flotante -->
+    <a
+      href="https://wa.me/3045354056?text=Hola%2C%20tengo%20una%20pregunta."
+      class="whatsapp-float"
+      target="_blank"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <!-- Flecha arriba -->
+    <a href="index.html" class="scroll-to-top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2025 Pastelería Bachué - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
