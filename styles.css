@@ -95,12 +95,16 @@ header#inicio .btn-prducts:hover {
   padding: 20px;
   width: 250px;
   text-align: center;
+  overflow: hidden; /* Evita desbordamientos en imágenes grandes */
 }
 
 .producto img {
   width: 100%;
+  height: auto;
   border-radius: 10px;
   margin-bottom: 15px;
+  display: block; /* Evita espacio extra en imágenes dentro de contenedores inline */
+  object-fit: cover; /* Ajusta la imagen para llenar el espacio sin distorsionarla */
 }
 
 .producto h3 {
