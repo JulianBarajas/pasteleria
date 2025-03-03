@@ -101,7 +101,7 @@ function confirmarPedido() {
     `📝 Frase: ${frase}\n\n` +
     `Quedo pendiente, ¡Gracias!.`;
 
-  const numeroPasteleria = "573045354056";
+  const numeroPasteleria = "573138492636";
   const urlWhatsApp = `https://wa.me/${numeroPasteleria}?text=${encodeURIComponent(
     mensaje
   )}`;

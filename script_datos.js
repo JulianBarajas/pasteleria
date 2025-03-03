@@ -96,11 +96,11 @@ function confirmarPedido() {
     nombre +
     ", estoy interesado en el *clásico:* '" +
     productName +
-    "', es para " +
+    "', " +
     personas +
     ". Por último, quiero saber el precio. Muchas gracias.";
 
-  var numeroWhatsApp = "573045354056";
+  var numeroWhatsApp = "573138492636";
 
   // Construir URL para WhatsApp, codificando el mensaje
   var url =
