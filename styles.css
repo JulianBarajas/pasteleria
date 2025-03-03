@@ -28,7 +28,7 @@ body {
 }
 
 header#inicio {
-  background-image: url(img/FondoBanner.avif);
+  background-image: url(img/FondoBanner_19_11zon.jpg);
   background-size: cover;
   background-position: center;
   color: black;
@@ -95,7 +95,7 @@ header#inicio .btn-prducts:hover {
   padding: 20px;
   width: 250px;
   text-align: center;
-  overflow: hidden; /* Evita desbordamientos en imágenes grandes */
+  /* overflow: hidden; Evita desbordamientos en imágenes grandes */
 }
 
 .producto img {
@@ -103,8 +103,8 @@ header#inicio .btn-prducts:hover {
   height: auto;
   border-radius: 10px;
   margin-bottom: 15px;
-  display: block; /* Evita espacio extra en imágenes dentro de contenedores inline */
-  object-fit: cover; /* Ajusta la imagen para llenar el espacio sin distorsionarla */
+  /* display: block; Evita espacio extra en imágenes dentro de contenedores inline */
+  /* object-fit: cover; Ajusta la imagen para llenar el espacio sin distorsionarla */
 }
 
 .producto h3 {

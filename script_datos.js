@@ -78,6 +78,7 @@ function confirmarPedido() {
   // Capturar datos del formulario
   var nombre = document.getElementById("nombre").value.trim();
   var celular = document.getElementById("celular").value.trim();
+  var personas = document.getElementById("personas").value.trim();
 
   // Validar que el usuario haya ingresado los datos
   if (!nombre || !celular) {
@@ -85,30 +86,20 @@ function confirmarPedido() {
     return;
   }
 
-  // Información adicional (puedes modificar estos textos si lo deseas)
-  var horarios =
-    "Horarios de Atención:\nLunes a Sábados: 9:00 AM - 7:00 PM\nDomingo y Festivos: 9:00 AM - 3:00 PM";
-  var ubicacion =
-    "Ubicación del Sitio:\nCarrera 100 # 22i-70, Bogotá, Colombia";
-
-  // Método de pago: verificar si el checkbox "contraEntrega" está seleccionado
   var contraEntrega = document.getElementById("contraEntrega").checked;
   var metodoPago =
     "Método de Pago: " + (contraEntrega ? "Contra entrega" : "No especificado");
 
   // Construir el mensaje para WhatsApp
   var mensaje =
-    "Hola! soy " +
+    "Hola! Soy " +
     nombre +
-    ", quiero hacer el siguiente pedido:\n\n" +
-    "*Producto:* " +
+    ", estoy interesado en el *clásico:* '" +
     productName +
-    " - " +
-    productDescription +
-    "\n\n" +
-    "¡Muchas gracias!";
+    "', es para " +
+    personas +
+    ". Por último, quiero saber el precio. Muchas gracias.";
 
-  // Número de WhatsApp de la pastelería (actualiza este número)
   var numeroWhatsApp = "573045354056";
 
   // Construir URL para WhatsApp, codificando el mensaje

@@ -94,13 +94,11 @@ function confirmarPedido() {
 
   let mensaje =
     `Hola, soy ${nombre}.\n` +
-    `Quiero solicitar la siguiente torta personalizada:\n\n` +
-    `- Tamaño: ${size}\n` +
-    `- Sabor: ${sabor}\n` +
-    `- Temática: ${tematica}\n` +
-    `- Frase: ${frase}\n\n` +
-    // `Mi número de contacto es: ${celular}.\n` +
-    // `Método de pago: ${metodoPago}.\n` +
+    `Quiero saber si me pueden colaborar con la siguiente torta personalizada:\n\n` +
+    `🎂 Tamaño: ${size}\n` +
+    `🍰 Sabor: ${sabor}\n` +
+    `🎨 Temática: ${tematica}\n` +
+    `📝 Frase: ${frase}\n\n` +
     `Quedo pendiente, ¡Gracias!.`;
 
   const numeroPasteleria = "573045354056";
