@@ -110,12 +110,13 @@ input:focus {
 }
 
 .btn-confirmar {
-  background-color: #ff6f61;
+  background-color: #d63d29;
   color: #fff;
 }
 
 .btn-confirmar:hover {
-  background-color: #e65a50;
+  background: linear-gradient(to bottom, #e64a38, #b5301f);
+  color: #fff;
 }
 
 .btn-volver {

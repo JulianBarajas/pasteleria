@@ -44,7 +44,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* Título del producto */
 h2,
 h3 {
   font-weight: 600;
@@ -57,7 +56,6 @@ p {
   margin-bottom: 10px;
 }
 
-/* Bloques de información */
 .info-section {
   margin-bottom: 15px;
   padding: 15px;
@@ -96,7 +94,6 @@ p {
   font-size: 1rem;
 }
 
-/* Efecto al enfocar un input */
 input:focus {
   border-color: #b07d5c;
   outline: none;
@@ -115,7 +112,6 @@ input:focus {
   margin-left: 10px;
 }
 
-/* Botones */
 .btn-confirmar,
 .btn-volver {
   display: inline-block;
@@ -132,12 +128,13 @@ input:focus {
 }
 
 .btn-confirmar {
-  background-color: #ff6f61;
+  background-color: #d63d29;
   color: #fff;
 }
 
 .btn-confirmar:hover {
-  background-color: #e65a50;
+  background: linear-gradient(to bottom, #e64a38, #b5301f);
+  color: #fff;
 }
 
 .btn-volver {
@@ -149,7 +146,6 @@ input:focus {
   background-color: #555;
 }
 
-/* Responsividad */
 @media (max-width: 768px) {
   .detalle-producto {
     padding: 15px;
@@ -169,8 +165,7 @@ input:focus {
     font-size: 0.9rem;
   }
 
-  .btn-confirmar,
-  .btn-volver {
+  .btn-confirmar {
     font-size: 0.9rem;
     padding: 8px;
     margin-bottom: 8px;
@@ -188,7 +183,7 @@ input:focus {
     border: none;
     outline: none;
     color: #fff;
-    background-color: #ff6f61;
+    background-color: #d63d29;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: bold;
@@ -198,11 +193,9 @@ input:focus {
     transition: all 0.3s ease;
   }
 
-  .btn-confirmar:hover,
-  .btn-volver:hover {
-    background-color: #e65a50;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transform: translateY(-2px);
+  .btn-confirmar:hover {
+    background: linear-gradient(to bottom, #e64a38, #b5301f);
+    color: #fff;
   }
 
   .btn-volver {

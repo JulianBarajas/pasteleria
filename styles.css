@@ -7,7 +7,6 @@ body {
   background-color: #f9f9f9;
 }
 
-/* Navbar */
 .navbar {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -25,10 +24,9 @@ body {
 }
 
 .navbar-nav .nav-link:hover {
-  color: #ff6f61;
+  color: #d63d29;
 }
 
-/* Hero Section */
 header#inicio {
   background-image: url(img/FondoBanner.avif);
   background-size: cover;
@@ -50,7 +48,7 @@ header#inicio p {
 }
 
 header#inicio .btn-prducts {
-  background-color: #ff6f61;
+  background-color: #d63d29;
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
@@ -59,10 +57,10 @@ header#inicio .btn-prducts {
 }
 
 header#inicio .btn-prducts:hover {
-  background-color: #e65a50;
+  background: linear-gradient(to bottom, #e64a38, #b5301f);
+  color: #fff;
 }
 
-/* Títulos de secciones */
 .section {
   padding: 30px 20px;
   text-align: center;
@@ -75,7 +73,6 @@ header#inicio .btn-prducts:hover {
   color: #333;
 }
 
-/* Contenedor de productos */
 .productos-container {
   display: flex;
   flex-wrap: wrap;
@@ -84,7 +81,6 @@ header#inicio .btn-prducts:hover {
   padding: 20px;
 }
 
-/* Tarjeta de producto */
 .productos-container {
   display: flex;
   flex-wrap: wrap;
@@ -120,7 +116,7 @@ header#inicio .btn-prducts:hover {
 }
 
 .producto .btn-ordenar {
-  background-color: #ff6f61;
+  background-color: #d63d29;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -130,10 +126,9 @@ header#inicio .btn-prducts:hover {
 }
 
 .producto .btn-ordenar:hover {
-  background-color: #e65a50;
+  background: linear-gradient(to bottom, #e64a38, #b5301f);
+  color: #fff;
 }
-
-/* Galería de tortas personalizadas */
 
 .gallery {
   display: flex;
@@ -155,7 +150,7 @@ header#inicio .btn-prducts:hover {
 }
 
 .btn-personalizar-torta {
-  background-color: #ff6f61;
+  background-color: #d63d29;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -165,7 +160,8 @@ header#inicio .btn-prducts:hover {
 }
 
 .btn-personalizar-torta:hover {
-  background-color: #e65a50;
+  background: linear-gradient(to bottom, #e64a38, #b5301f);
+  color: #fff;
 }
 
 .modal {
@@ -232,19 +228,6 @@ header#inicio .btn-prducts:hover {
   color: #333;
 }
 
-/* @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-} */
-
-/* Sección "Sobre Nosotros" y "Contacto" */
-
 #nosotros {
   padding: 30px 20px;
   text-align: center;
@@ -293,7 +276,6 @@ header#inicio .btn-prducts:hover {
   margin-bottom: 0.5rem;
 }
 
-/* Footer */
 footer {
   background-color: #333;
   color: #fff;
@@ -305,7 +287,6 @@ footer p {
   margin: 0;
 }
 
-/* Estilos botón flotante */
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
@@ -328,38 +309,34 @@ footer p {
   transform: scale(1.1);
 }
 
-/* Estilos para el botón de "scroll to top" */
 .scroll-to-top {
   position: fixed;
   bottom: 85px;
   right: 25px;
-  color: #ff6f61; /* Color blanco para el ícono */
+  color: #d63d29;
   width: 40px;
   height: 40px;
-  border-radius: 50%; /* Forma circular */
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   opacity: 0;
   visibility: hidden;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  z-index: 1000;
 }
 
 .scroll-to-top i {
-  font-size: 1.5rem; /* Tamaño del ícono */
+  font-size: 1.5rem;
 }
 
-/* Efecto hover */
 .scroll-to-top:hover {
-  /* background-color: #e65a50; Color coral más oscuro al pasar el mouse */
   color: #e65a50;
-  transform: translateY(-5px); /* Efecto de levantar el botón */
+  transform: translateY(-5px);
 }
 
-/* Adaptabilidad a móviles */
 @media (max-width: 768px) {
   header#inicio h1 {
     font-size: 2rem;
